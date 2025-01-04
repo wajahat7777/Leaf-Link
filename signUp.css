@@ -1,0 +1,46 @@
+.root {
+    -fx-alignment: center;
+    -fx-padding: 20;
+    -fx-background-image: url("file:/C:/Users/ACG/OneDrive/Desktop/JavaFX/src/application/signup.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+.email-label {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;  /* Set the text color to white */
+}
+
+.password-label {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;  /* Set the text color to white */
+}
+
+
+.text-field, .password-field {
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+    -fx-pref-width: 200px;
+}
+
+.button {
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-pref-width: 100px;
+}
+
+.inventoryButton{
+	
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}

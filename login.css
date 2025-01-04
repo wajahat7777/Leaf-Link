@@ -1,0 +1,67 @@
+.root {
+    -fx-alignment: center;
+    -fx-padding: 20;
+    -fx-background-image: url("file:/C:/Users/ACG/OneDrive/Desktop/JavaFX/src/application/background.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+.grid-background {
+    -fx-background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for form */
+}
+
+/* Label styles */
+.email-label, .password-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Dark gray text color */
+}
+
+/* Text field and password field styles */
+.text-field, .password-field {
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #888888; /* Light gray text color for prompt */
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #ccc;
+}
+
+/* Button styles */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Sign-up link styles */
+.signup-link {
+    -fx-background-color: transparent;
+    -fx-text-fill: blue;
+    -fx-font-size: 14px;
+    -fx-padding: 0;
+    -fx-underline: true;
+    -fx-max-width: 100%;
+}
+
+/* Error label */
+.error-label {
+    -fx-text-fill: red;
+    -fx-font-size: 12px;
+}
+
+/* Text field and password field red border on error */
+.text-field-error {
+    -fx-border-color: red;
+    -fx-border-width: 2;
+}
+
+.password-field-error {
+    -fx-border-color: red;
+    -fx-border-width: 2;
+}
